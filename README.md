@@ -1,6 +1,12 @@
-# Proyecto de CRUD de Películas - FastAPI
+# Proyecto de CRUD de sistema de inventarios - FastAPI
 
 <img src="img/programate-academy.png" alt="Logo Programate">
+
+![Logo](https://www.python.org/static/community_logos/python-logo-inkscape.svg)
+
+<img src="img/logo-teal.png" alt="Logo de FastApi">
+
+<img src="img/OIP.ktYu1YG5yHsi70F2CL39PwHaCI.png" alt="PyPantic">
 
 ## Descripción
 
@@ -8,11 +14,16 @@ Este proyecto es un ejemplo de una API RESTful desarrollada con FastAPI que perm
 
 ## Funcionalidades
 
-- Obtener todas las películas disponibles
-- Obtener una película por su ID
-- Crear una nueva película
-- Actualizar una película existente
-- Eliminar una película
+- Obtener todos los productos de una tienda
+- obtener precio del producto
+- obtener la cantidad de productos
+- obtener la frecha de ingresod e cada producto
+- obtener los datos del cliente
+- obtener los pagos total de la compra
+- Obtener un producto por su ID
+- Crear un proucto
+- Actualizar un producto existente
+- Eliminar un producto
 
 ## Tecnologías utilizadas
 
@@ -20,32 +31,7 @@ Este proyecto es un ejemplo de una API RESTful desarrollada con FastAPI que perm
 - FastAPI
 - Pydantic
 
-## Instalación
 
-1. Clona este repositorio en tu máquina local:
-
-git clone git@github.com:JSand89/my-movie-app-c9.git
-
-
-2. Navega al directorio del proyecto:
-
-cd my-movie-app-c9
-
-3. Tu o uno de tus companeros debe cambiar el origen del repositorio 
-
-git remote -v
-
-git remote remove origin
-
-git remote add origin <nueva_url_del_repositorio>
-
-4. Ahora, tus compañeros deben clonar tu repositorio y tú debes darles permiso para editarlo
-
-Desde el repositorio en GitHub, ve a "Settings" y luego a la sección de "Collaborators" para agregarlos. Esto tiene como objetivo permitirles realizar cambios. No te preocupes, realizaremos este proceso en clase."
-
-5. Instala las dependencias necesarias:
-
-pip install -r requirements.txt
 
 
 ## Uso
@@ -60,11 +46,13 @@ uvicorn main:app --reload
 http://localhost:8000/docs
 
 
-3. Prueba las diferentes rutas disponibles para realizar operaciones CRUD en las películas.
-
+3. Prueba las diferentes rutas disponibles para realizar operaciones CRUD en los sistemas de inventarios.
 
 ## Contacto
 
-Si tienes alguna pregunta o sugerencia o quieres el workbook para desarrollar este proyecto, no dudes en contactarme en [jsanchez@educamas.com.co](jsanchez@educamas.com.co).
+Si tienes alguna pregunta o sugerencia o quieres el workbook para desarrollar este proyecto, no dudes en contactarme en: ruizvalencia78@gmail.com
+
+## Autor
 
 
+- [@Juan Andres](https://github.com/juan0941)
